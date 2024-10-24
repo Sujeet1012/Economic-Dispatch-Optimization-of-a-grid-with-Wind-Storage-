@@ -1,0 +1,26 @@
+B 3 C o m p i l a t i o n
+B 83 Equation Listing    SOLVE DEDcostbased Using QCP From line 66
+D 86 Genconst3
+D 97 Genconst4
+D 108 costThermalcalc
+D 113 balance
+D 124 EMcalc
+B 130 Column Listing      SOLVE DEDcostbased Using QCP From line 66
+E 133 costThermal
+E 140 p
+E 176 EM
+B 184 Range Statistics    SOLVE DEDcostbased Using QCP From line 66
+B 195 Model Statistics    SOLVE DEDcostbased Using QCP From line 66
+B 209 Solution Report     SOLVE DEDcostbased Using QCP From line 66
+F 255 Genconst3
+F 356 Genconst4
+F 459 costThermalcalc
+F 461 balance
+F 492 EMcalc
+G 496 costThermal
+G 500 p
+G 603 EM
+B 614 E x e c u t i o n
+I 616 costThermal
+I 617 p
+I 628 EM

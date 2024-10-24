@@ -1,0 +1,32 @@
+B 3 C o m p i l a t i o n
+B 114 Equation Listing    SOLVE DEDESScostbased Using QCP From line 85
+D 117 Genconst3
+D 128 Genconst4
+D 139 costThermalcalc
+D 144 balance
+D 155 constESS1
+B 167 Column Listing      SOLVE DEDESScostbased Using QCP From line 85
+E 170 costThermal
+E 177 p
+E 210 SOC
+E 232 Pd
+E 251 Pc
+B 271 Range Statistics    SOLVE DEDESScostbased Using QCP From line 85
+B 282 Model Statistics    SOLVE DEDESScostbased Using QCP From line 85
+B 296 Solution Report     SOLVE DEDESScostbased Using QCP From line 85
+F 342 Genconst3
+F 443 Genconst4
+F 546 costThermalcalc
+F 548 balance
+F 577 constESS1
+G 608 costThermal
+G 612 p
+G 713 SOC
+G 742 Pd
+G 771 Pc
+B 807 E x e c u t i o n
+I 809 costThermal
+I 810 p
+I 820 SOC
+I 825 Pd
+I 830 Pc

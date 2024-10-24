@@ -1,0 +1,77 @@
+--- Job ded+emissions+noESS.gms Start 10/21/24 08:36:20 48.1.0 612569ae WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\48\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "D:\udemy\economic dispatch\ded+emissions+noESS.gms"
+    PageSize 0
+    ScrDir "D:\udemy\economic dispatch\225a\"
+    SysDir C:\GAMS\48\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: GAMS Demo, for EULA and demo limitations see   G241001/0001CB-GEN
+          https://www.gams.com/latest/docs/UG%5FLicense.html         DC0000
+          C:\GAMS\48\gamslice.txt
+          Demo license for demonstration and instructional purposes only
+Processor information: 1 socket(s), 8 core(s), and 16 thread(s) available
+GAMS 48.1.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- ded+emissions+noESS.gms(72) 3 Mb
+--- Starting execution: elapsed 0:00:00.008
+--- ded+emissions+noESS.gms(45) 4 Mb
+--- Generating QCP model DEDcostbased
+--- ded+emissions+noESS.gms(66) 6 Mb
+---   218 rows  98 columns  666 non-zeroes
+---   1,157 nl-code  192 nl-non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 3.000E+01, 8.208E+03]
+--- Bound     [min, max] : [ 2.000E+01, 2.900E+02]
+--- Matrix    [min, max] : [ 1.000E+00, 8.776E+01]
+--- ded+emissions+noESS.gms(66) 4 Mb
+--- Executing CONOPT (Solvelink=2): elapsed 0:00:00.025
+
+CONOPT 4         48.1.0 612569ae Oct 14, 2024          WEI x86 64bit/MS Window
+
+--- *** This solver runs with a demo license. No commercial use.
+ 
+ 
+    C O N O P T   version 4.35
+    Copyright (C) GAMS Software GmbH
+                  GAMS Development Corporation
+ 
+ 
+    The user model has 218 constraints and 98 variables
+    with 666 Jacobian elements, 192 of which are nonlinear.
+    The Hessian of the Lagrangian has 96 elements on the diagonal,
+    0 elements below the diagonal, and 96 nonlinear variables.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+       0   0          1.3785024000E+05 (Input point)
+ 
+    The pre-triangular part of the model has 100 constraints and 0 variables.
+    The post-triangular part of the model has 2 constraints and variables.
+ 
+    Preprocessed model has 116 constraints and 96 variables
+    with 280 Jacobian elements, 0 of which are nonlinear.
+ 
+    Iter Phase   Ninf   Infeasibility   RGmax      NSB   Step  InItr MX OK
+                      1.1973000000E+04 (Full preprocessed model)
+                      2.4994140625E+01 (After scaling)
+       6   1      15  2.0898437500E+00 5.0E+00      25 1.0E+00    25 T  T
+ 
+ ** Feasible solution. Value of objective =    790019.780000
+ 
+    Iter Phase   Ninf     Objective     RGmax      NSB   Step  InItr MX OK
+      11   3          7.0724396552E+05 2.9E+04      57 6.4E-01    35 F  T
+      16   4          6.4796446012E+05 3.7E+00      46 1.0E+00    11 F  T
+      19   4          6.4796446012E+05 1.7E-08      46
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Reading solution for model DEDcostbased
+--- Executing after solve: elapsed 0:00:00.201
+--- ded+emissions+noESS.gms(68) 4 Mb
+*** Status: Normal completion
+--- Job ded+emissions+noESS.gms Stop 10/21/24 08:36:21 elapsed 0:00:00.201
